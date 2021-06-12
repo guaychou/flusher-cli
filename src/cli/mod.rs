@@ -1,5 +1,5 @@
 /*
-Copyright © 2021 Kevin Jonathan Harnanta <kevin.harnata@gdn-commerce.com>
+Copyright © 2021 Kevin Jonathan Harnanta <crossmajor99@gmail.com>
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
