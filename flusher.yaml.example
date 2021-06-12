@@ -1,0 +1,9 @@
+requestId: '2kdk-eqwee-opeq2c'
+redis:
+  #auth: true
+  operation: FlushDB # for now available only is FlushAll // DelKeyByPrefix (you need to specify database and key pattern)
+  address: "blihire-rd-1.perf.lokal"
+  port: 6392
+  # master: "mymaster"
+  # key: "qweqwe*"
+  database: 5
