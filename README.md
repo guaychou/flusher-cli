@@ -24,7 +24,7 @@ OPTIONS:
 
 ## Example
 ```
-$ RUST_LOG=info ./flusher-cli --address=http://flusher.qa1-sg.cld --config=./flusher.yaml
+$ RUST_LOG=info ./flusher-cli --address=http://flusher.cluster.local --config=./flusher.yaml
 ```
 
 ## Example config flusher.yaml
