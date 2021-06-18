@@ -64,7 +64,7 @@ pub fn hit_flusher(flusher_address: &str, dry_run: &bool, config_path: &str, app
         //Check if developer add master redis name to config file if yess add the redis password into sentinel password too.
         match data.get_master() {
             Some(_) => data.set_sentinel_password(Some(redis_password.to_string())),
-            None => data.set_sentinel_password(Some(String::from(""))),
+            None => data.set_sentinel_password(None),
         };
     }
 
